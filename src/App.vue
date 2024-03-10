@@ -1,11 +1,13 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Registry/>
+      <Dialog/>
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-  //
+import Registry from "@/components/Registry.vue";
+import Dialog from "@/components/Dialog.vue";
 </script>
